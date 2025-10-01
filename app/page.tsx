@@ -48,7 +48,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <img 
-                    src="/IMG_3094.JPG"
+                    src="./IMG_3094.JPG"
                   alt="Team Member 1" 
                   className="w-full h-full object-contain object-center" 
                 />
@@ -66,7 +66,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <img 
-                    src="/IMG_4538.jpg"
+                    src="./IMG_4538.jpg"
                   alt="Team Member 2" 
                   className="w-full h-full object-contain object-center" 
                 />
@@ -84,7 +84,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <img 
-                    src="/profile-picture.jpg"
+                    src="./profile-picture.jpg"
                   alt="Team Member 3" 
                   className="w-full h-full object-contain object-center" 
                 />
@@ -102,7 +102,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <img 
-                    src="/F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG"
+                    src="./F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG"
                   alt="Team Member 4" 
                   className="w-full h-full object-contain object-center" 
                 />
@@ -120,7 +120,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <img 
-                    src="/1744594149201.jpg"
+                    src="./1744594149201.jpg"
                   alt="Team Member 5" 
                   className="w-full h-full object-contain object-center" 
                 />
@@ -214,10 +214,11 @@ The goal is to ensure the Husky can continue operating based on the true state o
                   </div>
                 </a>
 
-                  <a
-                    href="/IEEE_Conference_Template.pdf"
-                    className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
-                  >
+
+                <a
+                  href="https://github.com/joMusangu/capstone_website/blob/main/public/IEEE_Conference_Template.pdf"
+                  className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
+                >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                     <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path
