@@ -3,50 +3,33 @@
 import { useEffect, useRef } from 'react'
 
 export default function AudioPlayer() {
-  const audioRef = useRef<HTMLAudioElement>(null)
+  const iframeRef = useRef<HTMLIFrameElement>(null)
 
   useEffect(() => {
-    // Try to play audio when component mounts
-    const playAudio = async () => {
-      if (audioRef.current) {
-        try {
-          // Set volume to a reasonable level
-          audioRef.current.volume = 0.5
-          audioRef.current.muted = false
-          await audioRef.current.play()
-          console.log('Audio started playing successfully')
-        } catch (error) {
-          console.log('Audio autoplay was prevented by browser policy:', error)
-          // Try to play on user interaction
-          const playOnInteraction = () => {
-            if (audioRef.current) {
-              audioRef.current.play().catch(console.log)
-            }
-          }
-          document.addEventListener('click', playOnInteraction, { once: true })
-          document.addEventListener('touchstart', playOnInteraction, { once: true })
-        }
-      }
-    }
-
-    // Small delay to ensure the component is fully mounted
-    const timer = setTimeout(playAudio, 1000)
-    
-    return () => clearTimeout(timer)
+    // The iframe will handle autoplay
+    // Note: Modern browsers may still block autoplay with sound
+    // User interaction might be required for audio to play
   }, [])
 
   return (
-    <div className="hidden">
-      <audio
-        ref={audioRef}
-        loop
-        preload="auto"
-        aria-label="Background audio"
-      >
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3" type="audio/mpeg" />
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
-        Your browser does not support the audio element.
-      </audio>
+    <div className="fixed top-4 right-4 z-50">
+      <iframe
+        ref={iframeRef}
+        width="300"
+        height="200"
+        src="https://www.youtube.com/watch?v=YaG5SAw1n0c"
+        title="Background Audio"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        className="rounded-lg shadow-lg opacity-90 hover:opacity-100 transition-opacity"
+        style={{ 
+          position: 'fixed',
+          top: '20px',
+          right: '20px',
+          zIndex: 1000
+        }}
+      />
     </div>
   )
 }
