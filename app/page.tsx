@@ -58,7 +58,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {/* Brief bio or responsibilities for this team member. */}
+                  Data Analysis/ UI & UX
                 </p>
               </CardContent>
             </Card>
@@ -76,7 +76,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {/* Brief bio or responsibilities for this team member. */}
+                  Data Analysis Research
                 </p>
               </CardContent>
             </Card>
@@ -94,7 +94,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {/* Brief bio or responsibilities for this team member. */}
+                  Deep Learning/ AI Engineer
                 </p>
               </CardContent>
             </Card>
@@ -112,7 +112,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {/* Brief bio or responsibilities for this team member. */}
+                  Data Analysis/ Data Engineer
                 </p>
               </CardContent>
             </Card>
@@ -130,7 +130,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {/* Brief bio or responsibilities for this team member. */}
+                  Communication/Management
                 </p>
               </CardContent>
             </Card>
@@ -176,7 +176,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <div className="relative pl-8 border-l-2 border-border">
                   <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-muted" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-semibold text-muted-foreground">Stage: Development Phase 2</h3>
+                    <h3 className="text-xl font-semibold text-muted-foreground">Stage 3: Development Phase 2</h3>
                     <p className="text-sm text-muted-foreground">TO BE DECIDED</p>
                     <p className="text-muted-foreground leading-relaxed pt-2">
                       Updates will be added here as the project progresses.
@@ -215,7 +215,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 </a>
 
                 <a
-                  href="/IEEE_Conference_Template.pdf"
+                  href="\IEEE_Conference_Template.pdf"
                   className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
                 >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
