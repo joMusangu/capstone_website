@@ -49,7 +49,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <Image 
-                  src="/IMG_3094.JPG" 
+                    src="/IMG_3094.JPG"
                   alt="Team Member 1" 
                   fill 
                   className="object-contain object-center" 
@@ -69,7 +69,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <Image 
-                  src="/IMG_4538.jpg" 
+                    src="/IMG_4538.jpg"
                   alt="Team Member 2" 
                   fill 
                   className="object-contain object-center" 
@@ -89,7 +89,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <Image 
-                  src="/profile-picture.jpg" 
+                    src="/profile-picture.jpg"
                   alt="Team Member 3" 
                   fill 
                   className="object-contain object-center" 
@@ -109,7 +109,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <Image 
-                  src="/F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG" 
+                    src="/F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG"
                   alt="Team Member 4" 
                   fill 
                   className="object-contain object-center" 
@@ -129,7 +129,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <Card className="overflow-hidden">
               <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
                 <Image 
-                  src="/1744594149201.jpg" 
+                    src="/1744594149201.jpg"
                   alt="Team Member 5" 
                   fill 
                   className="object-contain object-center" 
