@@ -11,17 +11,26 @@ export default function AudioPlayer() {
       if (audioRef.current) {
         try {
           // Set volume to a reasonable level
-          audioRef.current.volume = 0.3
+          audioRef.current.volume = 0.5
+          audioRef.current.muted = false
           await audioRef.current.play()
+          console.log('Audio started playing successfully')
         } catch (error) {
-          console.log('Audio autoplay was prevented by browser policy')
-          // Audio will be available for manual play
+          console.log('Audio autoplay was prevented by browser policy:', error)
+          // Try to play on user interaction
+          const playOnInteraction = () => {
+            if (audioRef.current) {
+              audioRef.current.play().catch(console.log)
+            }
+          }
+          document.addEventListener('click', playOnInteraction, { once: true })
+          document.addEventListener('touchstart', playOnInteraction, { once: true })
         }
       }
     }
 
     // Small delay to ensure the component is fully mounted
-    const timer = setTimeout(playAudio, 500)
+    const timer = setTimeout(playAudio, 1000)
     
     return () => clearTimeout(timer)
   }, [])
@@ -34,7 +43,8 @@ export default function AudioPlayer() {
         preload="auto"
         aria-label="Background audio"
       >
-        <source src="https://us-tuna-sounds-files.voicemod.net/cdf5679d-b438-4c79-b479-b97f5ebf7589-1680304223348.mp3" type="audio/mpeg" />
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3" type="audio/mpeg" />
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav" />
         Your browser does not support the audio element.
       </audio>
     </div>
