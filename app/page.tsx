@@ -226,7 +226,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 </a>
 
                 <a
-                  href="https://texastechuniversity-my.sharepoint.com/:w:/g/personal/tmusangu_ttu_edu/EQ0gSPkQ2KJGloPHkgGuWa0BCtbZX5P9nzL69KivMX-TyQ?e=H6n5ek"
+                  href="/IEEE_Conference_Template.pdf"
                   className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
                 >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">

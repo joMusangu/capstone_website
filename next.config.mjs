@@ -13,7 +13,10 @@ const nextConfig = {
   trailingSlash: true,
   basePath: process.env.NODE_ENV === 'production' ? '/capstone-project' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/capstone-project/' : '',
-  distDir: 'out',
+  // Ensure static assets are properly handled
+  experimental: {
+    esmExternals: false,
+  },
 }
 
 export default nextConfig
