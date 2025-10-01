@@ -1,12 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import AudioPlayer from "@/components/audio-player"
 
 export default function CapstonePage() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Audio Player */}
-      <AudioPlayer />
       {/* Header */}
       <header className="border-b border-border bg-card">
         <div className="container mx-auto px-6 py-8">
