@@ -4,7 +4,7 @@ A Next.js web application showcasing Team 5's capstone project for Fall 2025.
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://joMusangu.github.io/capstone-project](https://joMusangu.github.io/capstone-project)
+Visit the live site: [https://jomusangu.github.io/capstone_website/](https://jomusangu.github.io/capstone_website/)
 
 ## 🛠️ Local Development
 
@@ -50,7 +50,7 @@ This project is configured to automatically deploy to GitHub Pages using GitHub 
    - You can monitor the deployment in the "Actions" tab
 
 3. **Access your deployed site:**
-   - Your site will be available at: `https://joMusangu.github.io/capstone-project`
+   - Your site will be available at: `https://jomusangu.github.io/capstone_website/`
 
 ### Manual Deployment:
 
