@@ -130,7 +130,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Communication/Management
+                  Head of Communication/Management
                 </p>
               </CardContent>
             </Card>
