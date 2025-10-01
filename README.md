@@ -4,7 +4,7 @@ A Next.js web application showcasing Team 5's capstone project for Fall 2025.
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://yourusername.github.io/capstone-project](https://joMusangu.github.io/capstone-project)
+Visit the live site: [https://joMusangu.github.io/capstone-project](https://joMusangu.github.io/capstone-project)
 
 ## 🛠️ Local Development
 
