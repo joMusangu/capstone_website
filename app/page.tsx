@@ -45,15 +45,21 @@ The goal is to ensure the Husky can continue operating based on the true state o
         {/* Team Members */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6 text-balance">Team Members</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="overflow-hidden">
-              <div className="relative w-full h-48 bg-muted">
-                <Image src="IMG_3094.JPG" alt="Team Member 1" fill className="object-cover" />
+              <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
+                <Image 
+                  src="/IMG_3094.JPG" 
+                  alt="Team Member 1" 
+                  fill 
+                  className="object-contain object-center" 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
-              <CardHeader>
+              <CardHeader className="pb-3">
                 <CardTitle className="text-xl">Joseph Musangu</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {/* Brief bio or responsibilities for this team member. */}
                 </p>
@@ -61,13 +67,19 @@ The goal is to ensure the Husky can continue operating based on the true state o
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative w-full h-48 bg-muted">
-                <Image src="IMG_4538.jpg" alt="Team Member 2" fill className="object-cover" />
+              <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
+                <Image 
+                  src="/IMG_4538.jpg" 
+                  alt="Team Member 2" 
+                  fill 
+                  className="object-contain object-center" 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
-              <CardHeader>
+              <CardHeader className="pb-3">
                 <CardTitle className="text-xl">Delphin Iradukunda</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {/* Brief bio or responsibilities for this team member. */}
                 </p>
@@ -75,13 +87,19 @@ The goal is to ensure the Husky can continue operating based on the true state o
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative w-full h-48 bg-muted">
-                <Image src="profile-picture.jpg" alt="Team Member 3" fill className="object-cover" />
+              <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
+                <Image 
+                  src="/profile-picture.jpg" 
+                  alt="Team Member 3" 
+                  fill 
+                  className="object-contain object-center" 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
-              <CardHeader>
+              <CardHeader className="pb-3">
                 <CardTitle className="text-xl">Noah Keung</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {/* Brief bio or responsibilities for this team member. */}
                 </p>
@@ -89,13 +107,19 @@ The goal is to ensure the Husky can continue operating based on the true state o
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative w-full h-48 bg-muted">
-                <Image src="F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG" alt="Team Member 4" fill className="object-cover" />
+              <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
+                <Image 
+                  src="/F11D9EF8-6526-4E4E-BAD1-D5B69C5BDDFBScreenshot (59).JPEG" 
+                  alt="Team Member 4" 
+                  fill 
+                  className="object-contain object-center" 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
-              <CardHeader>
+              <CardHeader className="pb-3">
                 <CardTitle className="text-xl">Omotoyosi Adams</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {/* Brief bio or responsibilities for this team member. */}
                 </p>
@@ -103,13 +127,19 @@ The goal is to ensure the Husky can continue operating based on the true state o
             </Card>
 
             <Card className="overflow-hidden">
-              <div className="relative w-full h-48 bg-muted">
-                <Image src="1744594149201.jpg" alt="Team Member 5" fill className="object-cover" />
+              <div className="relative w-full h-64 bg-muted overflow-hidden rounded-t-lg">
+                <Image 
+                  src="/1744594149201.jpg" 
+                  alt="Team Member 5" 
+                  fill 
+                  className="object-contain object-center" 
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
-              <CardHeader>
+              <CardHeader className="pb-3">
                 <CardTitle className="text-xl">Max Heitzman</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {/* Brief bio or responsibilities for this team member. */}
                 </p>
