@@ -426,7 +426,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
       <footer className="border-t border-border mt-20">
         <div className="container mx-auto px-6 py-8">
           <p className="text-center text-sm text-muted-foreground">
-            Capstone Project 2025 • Last updated: {new Date().toLocaleDateString()}
+            Capstone Project 2025 • send help!!
           </p>
         </div>
       </footer>
