@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { ClockIcon, UsersIcon, VideoIcon } from "lucide-react"
 
 export default function CapstonePage() {
   return (
@@ -54,7 +55,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 />
               </div>
               <CardHeader className="pb-3">
-                <CardTitle className="text-xl">Joseph Musangu</CardTitle>
+                <CardTitle className="text-xl">Joseph Tshisau</CardTitle>
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -94,7 +95,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Deep Learning/ AI Engineer
+                  AI/ML Engineer
                 </p>
               </CardContent>
             </Card>
@@ -112,7 +113,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Data Analysis/ Data Engineer
+                  Data Engineer
                 </p>
               </CardContent>
             </Card>
@@ -130,7 +131,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </CardHeader>
               <CardContent className="pt-0">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Head of Communication/Management
+                  AI Integration & Communications Lead
                 </p>
               </CardContent>
             </Card>
@@ -186,6 +187,187 @@ The goal is to ensure the Husky can continue operating based on the true state o
               </div>
             </CardContent>
           </Card>
+        </section>
+
+        {/* Interview Schedule */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-6 text-balance">Interview Schedule</h2>
+          <div className="space-y-4">
+              {/* Interview 1 */}
+              <Card>
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">Interview with CoNetrix Security Professional Jaedon Pachicano</CardTitle>
+                    <Badge variant="secondary">Sep 24</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ClockIcon className="h-4 w-4" />
+                    <span>September 24, 2025</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <VideoIcon className="h-4 w-4" />
+                    <span>Zoom Meeting</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewee:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Jaedon Pachicano (Security Support Technician, CoNetrix / Security Researcher, AC's Red Team)</li>
+                    </ul>
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewers:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Max Heitzman (Student Interviewer, Texas Tech University)</li>
+                      <li>• Noah (Student Interviewer, Texas Tech University)</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Interview 5 */}
+              <Card>
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">Interview with Ynes Ineza & Courtney Baker</CardTitle>
+                    <Badge variant="secondary">Oct 3</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ClockIcon className="h-4 w-4" />
+                    <span>October 3, 2025</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <VideoIcon className="h-4 w-4" />
+                    <span>Zoom Meeting</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewees:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Ynes Ineza — PhD Student</li>
+                      <li>• Courtney Baker — PhD Student; Drone attack/defense research</li>
+                    </ul>
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewers:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Joseph Tshisau</li>
+                      <li>• Delphin Iradukunda</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Interview 2 */}
+              <Card>
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">Interview with Abdurrhman Suliman</CardTitle>
+                    <Badge variant="secondary">Sep 25</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ClockIcon className="h-4 w-4" />
+                    <span>September 25, 2025 – 10:00 AM</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <VideoIcon className="h-4 w-4" />
+                    <span>Zoom Meeting</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewee:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Abdurrhman Suliman, Security Technician</li>
+                    </ul>
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewers:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Max Heitzman & Noah</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Interview 3 */}
+              <Card>
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">Interview with Dr. Stas Tiomkin</CardTitle>
+                    <Badge variant="outline">Completed</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ClockIcon className="h-4 w-4" />
+                    <span>Interview completed</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewee:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Dr. Stas Tiomkin</li>
+                    </ul>
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewers:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Noah & Max Heitzman</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Interview 4 */}
+              <Card>
+                <CardHeader className="pb-3">
+                  <div className="flex items-center justify-between">
+                    <CardTitle className="text-lg">Interview with Bipin Chhetri</CardTitle>
+                    <Badge variant="outline">Completed</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <ClockIcon className="h-4 w-4" />
+                    <span>Interview completed</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewee:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Bipin Chhetri, TTU CS (NLP + security/data privacy)</li>
+                    </ul>
+                    <div className="flex items-center gap-2 text-sm">
+                      <UsersIcon className="h-4 w-4 text-muted-foreground" />
+                      <span className="font-medium">Interviewers:</span>
+                    </div>
+                    <ul className="ml-6 space-y-1 text-sm text-muted-foreground">
+                      <li>• Noah & Max Heitzman</li>
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+          </div>
         </section>
 
         {/* Resources/Links */}
