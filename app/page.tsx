@@ -198,13 +198,13 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardHeader className="pb-3">
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-lg">Interview with CoNetrix Security Professional Jaedon Pachicano</CardTitle>
-                    <Badge variant="secondary">Sep 24</Badge>
+                    <Badge variant="secondary">Sep 25</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <ClockIcon className="h-4 w-4" />
-                    <span>September 24, 2025</span>
+                    <span>September 25, 2025</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <VideoIcon className="h-4 w-4" />
@@ -279,7 +279,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <ClockIcon className="h-4 w-4" />
-                    <span>September 25, 2025 – 10:00 AM</span>
+                    <span>September 25, 2025</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <VideoIcon className="h-4 w-4" />
@@ -309,7 +309,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardHeader className="pb-3">
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-lg">Interview with Dr. Stas Tiomkin</CardTitle>
-                    <Badge variant="outline">Completed</Badge>
+                    <Badge variant="outline">Sep 25</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-3">
@@ -341,7 +341,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardHeader className="pb-3">
                   <div className="flex items-center justify-between">
                     <CardTitle className="text-lg">Interview with Bipin Chhetri</CardTitle>
-                    <Badge variant="outline">Completed</Badge>
+                    <Badge variant="outline">Sep 25</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-3">
@@ -426,7 +426,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
       <footer className="border-t border-border mt-20">
         <div className="container mx-auto px-6 py-8">
           <p className="text-center text-sm text-muted-foreground">
-            Capstone Project 2025 • send help!!
+            Capstone Project 2025 
           </p>
         </div>
       </footer>
