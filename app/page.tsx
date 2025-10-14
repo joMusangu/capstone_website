@@ -315,7 +315,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <ClockIcon className="h-4 w-4" />
-                    <span>Interview completed</span>
+                    <span>September 25</span>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm">
@@ -347,7 +347,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <ClockIcon className="h-4 w-4" />
-                    <span>Interview completed</span>
+                    <span>September 25</span>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm">
