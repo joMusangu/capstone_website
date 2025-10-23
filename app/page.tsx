@@ -150,7 +150,7 @@ The goal is to ensure the Husky can continue operating based on the true state o
                   <div className="space-y-2">
                     <div className="flex items-center gap-3 flex-wrap">
                       <h3 className="text-xl font-semibold">Stage 1: Project Kickoff</h3>
-                      <Badge>Current</Badge>
+                      <Badge>Completed</Badge>
                     </div>
                     <p className="text-sm text-muted-foreground">August - October 2025</p>
                     <p className="text-foreground leading-relaxed pt-2">
@@ -161,26 +161,119 @@ The goal is to ensure the Husky can continue operating based on the true state o
                   </div>
                 </div>
 
-                {/* Update 2 - Placeholder */}
-                <div className="relative pl-8 border-l-2 border-border pb-8">
-                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-muted" />
+                {/* Update 2 - Completed */}
+                <div className="relative pl-8 border-l-2 border-primary pb-8">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-semibold text-muted-foreground">Stage 2: Development Phase 1</h3>
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Stage 2: Development Phase 1</h3>
+                      <Badge>Completed</Badge>
+                    </div>
                     <p className="text-sm text-muted-foreground">October 2025</p>
-                    <p className="text-muted-foreground leading-relaxed pt-2">
-                      Updates will be added here as the project progresses.
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Successfully implemented system design documentation including UML diagrams, sequence diagrams, and class diagrams. 
+                      Developed prototype with high fidelity to demonstrate core functionality and system architecture. 
+                      Established the foundation for the Husky Rover sensor data analysis framework.
                     </p>
                   </div>
                 </div>
 
-                {/* Update 3 - Placeholder */}
-                <div className="relative pl-8 border-l-2 border-border">
-                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-muted" />
+                {/* Update 3 - Current */}
+                <div className="relative pl-8 border-l-2 border-primary">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-semibold text-muted-foreground">Stage 3: Development Phase 2</h3>
-                    <p className="text-sm text-muted-foreground">TO BE DECIDED</p>
-                    <p className="text-muted-foreground leading-relaxed pt-2">
-                      Updates will be added here as the project progresses.
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Stage 3: Development Phase 2</h3>
+                      <Badge>Current</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">November 2025 - Present</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      TO BE CONTINUED STAY TUNED
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
+        {/* Stage 2 Meetings */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-6 text-balance">Stage 2 Development Meetings</h2>
+          <Card>
+            <CardContent className="pt-6">
+              <div className="space-y-6">
+                {/* Meeting 1 */}
+                <div className="relative pl-8 border-l-2 border-primary pb-6">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Meeting 1: Project Planning & Tech Stack</h3>
+                      <Badge variant="secondary">Oct 13</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">October 13, 2026 • 7:15 PM</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Initial planning session to discuss project roadmap, technology stack selection, and implementation strategies for the Husky Rover sensor data analysis system.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Meeting 2 */}
+                <div className="relative pl-8 border-l-2 border-primary pb-6">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Meeting 2: Implementation Strategy</h3>
+                      <Badge variant="secondary">Oct 16</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">October 16, 2026 • 6:45 PM</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Detailed discussion on implementation approaches, algorithm selection, and system architecture decisions for anomaly detection and data poisoning mitigation.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Meeting 3 */}
+                <div className="relative pl-8 border-l-2 border-primary pb-6">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Meeting 3: Goals & Expectations Review</h3>
+                      <Badge variant="secondary">Oct 19</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">October 19, 2026 • 8:30 PM</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Comprehensive review of project goals, success metrics, and expectations. Refined project scope and established clear deliverables for the development phase.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Meeting 4 */}
+                <div className="relative pl-8 border-l-2 border-primary pb-6">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Meeting 4: Future Planning & Roadmap</h3>
+                      <Badge variant="secondary">Oct 21</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">October 21, 2026 • 7:00 PM</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Strategic planning session focusing on future development phases, potential challenges, and long-term project sustainability and scalability considerations.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Meeting 5 */}
+                <div className="relative pl-8 border-l-2 border-primary">
+                  <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-xl font-semibold">Meeting 5: Group Responsibilities & Final Planning</h3>
+                      <Badge variant="secondary">Oct 23</Badge>
+                    </div>
+                    <p className="text-sm text-muted-foreground">October 23, 2026 • 6:20 PM</p>
+                    <p className="text-foreground leading-relaxed pt-2">
+                      Final coordination meeting to assign specific responsibilities, establish communication protocols, and finalize the development timeline for Stage 2 implementation.
                     </p>
                   </div>
                 </div>
