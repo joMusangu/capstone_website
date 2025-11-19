@@ -470,7 +470,9 @@ The goal is to ensure the Husky can continue operating based on the true state o
             <CardContent className="pt-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/nk818/husky-rover"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
                 >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -484,14 +486,15 @@ The goal is to ensure the Husky can continue operating based on the true state o
                     </svg>
                   </div>
                   <div>
-                    <p className="font-semibold">GitHub Repository</p>
-                    <p className="text-sm text-muted-foreground">View source code</p>
+                    <p className="font-semibold">Husky Rover Repository</p>
+                    <p className="text-sm text-muted-foreground">ROS2 dashboard for Husky UGV monitoring</p>
                   </div>
                 </a>
 
-
                 <a
                   href="https://github.com/joMusangu/capstone_website/blob/main/public/IEEE_Conference_Template.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg border border-border hover:bg-accent/50 transition-colors"
                 >
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
